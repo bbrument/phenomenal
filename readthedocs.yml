@@ -3,18 +3,11 @@
 # See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
 
 # Required
-version: 2
+#version: 2
 
 # Build documentation in the docs/ directory with Sphinx
-sphinx:
-  configuration: doc/source/conf.py
-
-# Build documentation with MkDocs
-#mkdocs:
-#  configuration: mkdocs.yml
-
-# Optionally build your docs in additional formats such as PDF and ePub
-formats: []
+#sphinx:
+#  configuration: doc/source/conf.py
 
 conda:
-    file: conda/environment.yml
+    file: environment.yml
