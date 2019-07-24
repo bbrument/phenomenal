@@ -1,2 +1,5 @@
+sphinx:
+  configuration: doc/source/conf.py
+
 conda:
     file: conda/rtd-environment.yml
